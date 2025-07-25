@@ -14,51 +14,51 @@ export function ClientNav() {
 
   return (
     <nav className="bg-white shadow-lg sticky top-0 z-50 border-b border-slate-100">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-6">
         <div className="flex justify-between items-center py-6">
           <div ref={revealBrand.ref} style={revealBrand.style}>
-            <Link href="/" className="flex items-center space-x-3">
+            <Link href="/" className="flex items-center space-x-4">
               <Image
                 src="/pintarlogo.jpg"
                 alt="Law Offices of Jason L. Pintar Logo"
-                width={40}
-                height={40}
+                width={50}
+                height={50}
                 className="rounded-full object-cover"
                 priority
               />
-              <span className="text-2xl font-serif font-semibold text-slate-900">
+              <span className="text-2xl xl:text-3xl font-serif font-semibold text-slate-900 whitespace-nowrap">
                 Law Offices of Jason L. Pintar
               </span>
             </Link>
           </div>
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden lg:flex space-x-10">
             <div ref={revealNav1.ref} style={revealNav1.style}>
-              <Link href="/estate-administration" className="text-slate-700 hover:text-blue-800 transition-colors duration-200 font-medium">
+              <Link href="/estate-administration" className="text-base xl:text-lg text-slate-700 hover:text-blue-800 transition-colors duration-200 font-medium whitespace-nowrap">
                 Estate Administration
               </Link>
             </div>
             <div ref={revealNav2.ref} style={revealNav2.style}>
-              <Link href="/conservatorships" className="text-slate-700 hover:text-blue-800 transition-colors duration-200 font-medium">
+              <Link href="/conservatorships" className="text-base xl:text-lg text-slate-700 hover:text-blue-800 transition-colors duration-200 font-medium whitespace-nowrap">
                 Conservatorships
               </Link>
             </div>
             <div ref={revealNav3.ref} style={revealNav3.style}>
-              <Link href="/probate" className="text-slate-700 hover:text-blue-800 transition-colors duration-200 font-medium">
+              <Link href="/probate" className="text-base xl:text-lg text-slate-700 hover:text-blue-800 transition-colors duration-200 font-medium whitespace-nowrap">
                 Probate
               </Link>
             </div>
             <div ref={revealNav4.ref} style={revealNav4.style}>
-              <Link href="/attorney" className="text-slate-700 hover:text-blue-800 transition-colors duration-200 font-medium">
+              <Link href="/attorney" className="text-base xl:text-lg text-slate-700 hover:text-blue-800 transition-colors duration-200 font-medium whitespace-nowrap">
                 Attorney Profile
               </Link>
             </div>
             <div ref={revealNav5.ref} style={revealNav5.style}>
-              <Link href="/contact" className="text-slate-700 hover:text-blue-800 transition-colors duration-200 font-medium">
+              <Link href="/contact" className="text-base xl:text-lg text-slate-700 hover:text-blue-800 transition-colors duration-200 font-medium whitespace-nowrap">
                 Contact
               </Link>
             </div>
           </div>
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <div ref={revealMobile.ref} style={revealMobile.style}>
               <button className="text-slate-700 hover:text-blue-800 transition-colors duration-200">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
