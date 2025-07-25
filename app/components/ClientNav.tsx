@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useScrollReveal } from './ScrollReveal';
 
 export function ClientNav() {
@@ -16,8 +17,18 @@ export function ClientNav() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-6">
           <div ref={revealBrand.ref} style={revealBrand.style}>
-            <Link href="/" className="text-2xl font-serif font-semibold text-slate-900">
-              Law Offices of Jason L. Pintar
+            <Link href="/" className="flex items-center space-x-3">
+              <Image
+                src="/pintarlogo.jpg"
+                alt="Law Offices of Jason L. Pintar Logo"
+                width={40}
+                height={40}
+                className="rounded-full object-cover"
+                priority
+              />
+              <span className="text-2xl font-serif font-semibold text-slate-900">
+                Law Offices of Jason L. Pintar
+              </span>
             </Link>
           </div>
           <div className="hidden md:flex space-x-8">
