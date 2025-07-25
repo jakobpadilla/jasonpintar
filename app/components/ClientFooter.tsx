@@ -67,7 +67,7 @@ export function ClientFooter() {
         </div>
         <div ref={revealCopyright.ref} style={revealCopyright.style}>
           <div className="border-t border-slate-700 mt-12 pt-8 text-center text-slate-400">
-            <p>&copy; 2024 Law Offices of Jason L. Pintar. All rights reserved.</p>
+            <p>&copy; 2025 Law Offices of Jason L. Pintar. All rights reserved.</p>
           </div>
         </div>
       </div>
