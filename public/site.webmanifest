@@ -1,0 +1,59 @@
+{
+    "name": "Law Offices of Jason L. Pintar",
+    "short_name": "Pintar Law",
+    "description": "San Jose Estate Planning & Administration Attorney - Expert legal services for estate planning, probate, and conservatorships in Silicon Valley",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "theme_color": "#1e3a8a",
+    "background_color": "#ffffff",
+    "lang": "en-US",
+    "categories": ["legal", "professional", "business"],
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        }
+    ],
+    "prefer_related_applications": false,
+    "shortcuts": [
+        {
+            "name": "Contact Us",
+            "short_name": "Contact",
+            "description": "Get in touch with our estate planning attorneys",
+            "url": "/contact",
+            "icons": [
+                {
+                    "src": "/android-chrome-192x192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "Attorney Profile",
+            "short_name": "Attorney",
+            "description": "Learn about Jason L. Pintar",
+            "url": "/attorney",
+            "icons": [
+                {
+                    "src": "/android-chrome-192x192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ]
+} 
